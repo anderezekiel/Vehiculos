@@ -72,6 +72,9 @@ public class Vehiculo {
 		 {
 			 this.numeroRuedas = numRuedas;
 		 } 
+		 public void verVehiculo () {
+			 System.out.println("hola");
+		 }
 }
 
 

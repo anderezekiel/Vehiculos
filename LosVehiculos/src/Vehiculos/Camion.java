@@ -41,6 +41,10 @@ public class Camion extends Vehiculo {
 	{
 		this.numeroEjes = numEjes;
 	}
+	
+	public static void verCamion () {
+		 System.out.println("hola");
+	 }
 
 }
 

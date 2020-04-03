@@ -21,6 +21,12 @@ public class Prueba extends Vehiculo  {
 		// TODO Auto-generated method stub
 		Motocicleta m1=new Motocicleta("azul");
 		m1.verMoto();
+		
+		Camion c1 = new Camion("azul", (byte) 6);
+		c1.verCamion();
+		
+		Vehiculo v1 = new Vehiculo((byte)4);
+		v1.verVehiculo();
 	}
 
 }
